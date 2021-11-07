@@ -1,2 +1,3 @@
-# xengine_pub
-public business code
+# xEnginePub
+
+xServer Engine Public impl
