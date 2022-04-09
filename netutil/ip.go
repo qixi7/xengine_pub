@@ -27,3 +27,33 @@ func IsLocalHostIP(ipstr string) bool {
 	}
 	return false
 }
+
+// 获取本地ip地址
+func GetLocalAddr() string {
+	addrs, err := net.InterfaceAddrs()
+	if err != nil {
+		return "unKnown"
+	}
+	for _, addr := range addrs {
+		if ipnet, ok := addr.(*net.IPNet); ok {
+			if ipnet.IP.IsLoopback() {
+				continue
+			}
+			ip4 := ipnet.IP.To4()
+			if ip4 == nil {
+				continue
+			}
+			return ipnet.IP.String()
+		}
+	}
+
+	for _, addr := range addrs {
+		if ipnet, ok := addr.(*net.IPNet); ok && ipnet.IP.IsLoopback() {
+			if ipnet.IP.To4() != nil {
+				return ipnet.IP.String()
+			}
+		}
+	}
+
+	return "unKnown"
+}
