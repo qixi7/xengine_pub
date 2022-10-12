@@ -1,4 +1,4 @@
-module xpub
+module github.com/qixi7/xengine_pub
 
 go 1.18
 
