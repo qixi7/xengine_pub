@@ -1,9 +1,9 @@
 package dispatchcollector
 
 import (
+	"github.com/qixi7/xengine_core/xcontainer/timer"
+	"github.com/qixi7/xengine_core/xlog"
 	"time"
-	"xcore/xcontainer/timer"
-	"xcore/xlog"
 )
 
 /*

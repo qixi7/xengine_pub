@@ -7,11 +7,11 @@ package quematch
 import (
 	"fmt"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/qixi7/xengine_core/xcontainer/job"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmetric"
+	"github.com/qixi7/xengine_core/xmodule"
 	"strings"
-	"xcore/xcontainer/job"
-	"xcore/xlog"
-	"xcore/xmetric"
-	"xcore/xmodule"
 )
 
 // 匹配基本配置信息

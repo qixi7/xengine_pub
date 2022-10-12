@@ -1,7 +1,7 @@
 package quematch
 
 import (
-	"xcore/xlog"
+	"github.com/qixi7/xengine_core/xlog"
 )
 
 type IMatchSuccess interface {

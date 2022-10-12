@@ -1,11 +1,11 @@
 package quematch
 
 import (
+	"github.com/qixi7/xengine_core/xcontainer/job"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmodule"
 	"math"
 	"time"
-	"xcore/xcontainer/job"
-	"xcore/xlog"
-	"xcore/xmodule"
 )
 
 /*

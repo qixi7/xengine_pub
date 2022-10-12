@@ -5,9 +5,9 @@ package cfgloader
 
 import (
 	"github.com/json-iterator/go"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmodule"
 	"io/ioutil"
-	"xcore/xlog"
-	"xcore/xmodule"
 )
 
 // 档数据接口

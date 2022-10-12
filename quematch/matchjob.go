@@ -1,9 +1,9 @@
 package quematch
 
 import (
-	"xcore/xcontainer/job"
-	"xcore/xlog"
-	"xcore/xmodule"
+	"github.com/qixi7/xengine_core/xcontainer/job"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmodule"
 )
 
 // 多线程匹配基于xcontainer/job

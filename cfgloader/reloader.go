@@ -2,9 +2,9 @@ package cfgloader
 
 import (
 	"github.com/pkg/errors"
-	"xcore/xcontainer/job"
-	"xcore/xlog"
-	"xcore/xmodule"
+	"github.com/qixi7/xengine_core/xcontainer/job"
+	"github.com/qixi7/xengine_core/xlog"
+	"github.com/qixi7/xengine_core/xmodule"
 )
 
 // 热更结束项目回调处理(nil为不回调)
